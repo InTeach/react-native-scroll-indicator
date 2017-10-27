@@ -30,7 +30,7 @@ import ScrollIndicator from '@inteach/react-native-scroll-indicator'
 const Component = () =>
   <View style={{ flex: 1 }}>
     <ScrollIndicator>
-        {/* Somme scrolable content */}
+        {/* Somme scrollable content */}
     </ScrollIndicator>
   </View>
 ```
