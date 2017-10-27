@@ -25,7 +25,7 @@ Install
 ## Code
 
 ```javascript
-import ScrollIndicator from 'react-native-scroll-indicator'
+import ScrollIndicator from '@inteach/react-native-scroll-indicator'
 
 const Component = () =>
   <View style={{ flex: 1 }}>

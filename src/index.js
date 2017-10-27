@@ -35,7 +35,7 @@ class ScrollIndicator extends Component {
 
   render() {
     const { scrollViewHeight, contentHeight, bottom } = this.state;
-    const { children, scrollEnabled, showIndicator, style } = this.props;
+    const { children, scrollEnabled, showIndicator, style, picto } = this.props;
     const maxValue = Math.max(contentHeight - scrollViewHeight, 0);
     const slideViewBottom = bottom.interpolate({
       inputRange: [0, maxValue],

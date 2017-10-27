@@ -1,6 +1,6 @@
 {
   "name": "@inteach/react-native-scroll-indicator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react native scroll indicator",
   "main": "./src/index.js",
   "private": false,
