@@ -1,11 +1,9 @@
 {
-  "name": "react-native-scroll-indicator",
+  "name": "@inteach/react-native-scroll-indicator",
   "version": "0.0.1",
   "description": "react native scroll indicator",
   "main": "./src/index.js",
   "scripts": {
-    "link": "wml add ./ ./example/node_modules/react-native-scroll-indicator",
-    "start": "wml start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -3,12 +3,13 @@ import { StyleSheet, View, Image, Animated } from "react-native";
 
 import LinearGradient from "react-native-linear-gradient";
 
-class Readmore extends Component {
+class ScrollIndicator extends Component {
   static defaultProps = {
     minScrollHeight: 0,
     style: {},
     scrollEnabled: true,
-    showIndicator: true
+    showIndicator: true,
+    picto: false
   };
 
   constructor(props) {
@@ -115,7 +116,9 @@ class Readmore extends Component {
             <LinearGradient
               colors={["transparent", "#212121"]}
               style={[styles.gradientBackground]}
-            />
+            >
+              {picto ? <Image source={picto} /> : <View />}
+            </LinearGradient>
           </Animated.View>
         ) : null}
       </View>
@@ -123,7 +126,7 @@ class Readmore extends Component {
   }
 }
 
-export default Readmore;
+export default ScrollIndicator;
 
 const styles = StyleSheet.create({
   swipeWrapperTop: {

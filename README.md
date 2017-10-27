@@ -14,22 +14,25 @@ React native scroll indicator
 Install
 
 ```bash
- $ npm install react-native-scroll-indicator -save
+ $ npm install @inteach/react-native-scroll-indicator -save
+ * react-native link react-native-linear-gradient
 ```
 
 ## Demo
 
-// un gif
+![demo](https://raw.githubusercontent.com/InTeach/react-native-scroll-indicator/master/assets/exemple.gif)
 
 ## Code
 
 ```javascript
 import ScrollIndicator from 'react-native-scroll-indicator'
 
-const Component = () =>
-  <ScrollIndicator>
-    {/* Somme scrolable content */}
-  </ScrollIndicator>
+const Component = () =>``
+  <View style={{ flex: 1 }}>
+    <ScrollIndicator>
+        {/* Somme scrolable content */}
+    </ScrollIndicator>
+  </View>
 ```
 
 ## Components
@@ -42,6 +45,7 @@ Props:
  - style (object) : default {}
  - scrollEnabled (bool) : default true
  - showIndicator (bool) : default true
+ - picto (require) : default false
 
 
 ## License
