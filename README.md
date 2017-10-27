@@ -15,12 +15,12 @@ Install
 
 ```bash
  $ npm install @inteach/react-native-scroll-indicator -save
- * react-native link react-native-linear-gradient
+ $ react-native link react-native-linear-gradient
 ```
 
 ## Demo
 
-![demo](https://raw.githubusercontent.com/InTeach/react-native-scroll-indicator/master/assets/exemple.gif)
+![demo](https://raw.githubusercontent.com/InTeach/react-native-scroll-indicator/master/assets/exemple.gif = 250x)
 
 ## Code
 
