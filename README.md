@@ -27,7 +27,7 @@ Install
 ```javascript
 import ScrollIndicator from 'react-native-scroll-indicator'
 
-const Component = () =>``
+const Component = () =>
   <View style={{ flex: 1 }}>
     <ScrollIndicator>
         {/* Somme scrolable content */}
