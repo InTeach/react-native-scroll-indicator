@@ -20,7 +20,7 @@ Install
 
 ## Demo
 
-![demo](https://raw.githubusercontent.com/InTeach/react-native-scroll-indicator/master/assets/exemple.gif | height=100)
+<img src="https://raw.githubusercontent.com/InTeach/react-native-scroll-indicator/master/assets/exemple.gif" height="100">
 
 ## Code
 
