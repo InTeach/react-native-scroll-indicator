@@ -115,9 +115,7 @@ class Readmore extends Component {
             <LinearGradient
               colors={["transparent", "#212121"]}
               style={[styles.gradientBackground]}
-            >
-              <Image source={require("../../../img/swipe-up.png")} />
-            </LinearGradient>
+            />
           </Animated.View>
         ) : null}
       </View>
