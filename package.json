@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "react native scroll indicator",
   "main": "./src/index.js",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,7 +32,5 @@
   "dependencies": {
     "react-native-linear-gradient": "^2.3.0"
   },
-  "devDependencies": {
-    "wml": "0.0.83"
-  }
+  "devDependencies": {}
 }

@@ -1,7 +1,7 @@
 # react-native-scroll-indicator
 React native scroll indicator
 
-[![npm](https://img.shields.io/npm/v/react-native-scroll-indicator.svg?style=flat-square)](https://www.npmjs.com/package/react-native-scroll-indicator)
+[![npm](https://img.shields.io/npm/v/@inteach/react-native-scroll-indicator.svg?style=flat-square)](https://www.npmjs.com/package/@inteach/react-native-scroll-indicator)
 
  - [Usage](#usage)
  - [Demo](#demo)
