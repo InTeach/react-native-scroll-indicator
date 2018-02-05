@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { StyleSheet, View, Image, Animated } from 'react-native';
+import React, { Component } from "react";
+import { StyleSheet, View, Image, Animated } from "react-native";
 
-import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from "react-native-linear-gradient";
 
 class ScrollIndicator extends Component {
   static defaultProps = {
@@ -11,7 +11,7 @@ class ScrollIndicator extends Component {
     showIndicator: true,
     picto: false,
     renderPicto: false,
-    linearGradientColors: ['transparent', '#212121'],
+    linearGradientColors: ["transparent", "#212121"],
     styleGradientBackground: {}
   };
 
@@ -52,17 +52,17 @@ class ScrollIndicator extends Component {
     const slideViewBottom = bottom.interpolate({
       inputRange: [0, maxValue],
       outputRange: [0, 100],
-      extrapolate: 'clamp'
+      extrapolate: "clamp"
     });
 
     const slideViewTop = bottom.interpolate({
       inputRange: [0, maxValue],
       outputRange: [60, 100],
-      extrapolate: 'clamp'
+      extrapolate: "clamp"
     });
 
     return (
-      <View style={{ flex: 1, overflow: 'hidden' }}>
+      <View style={{ flex: 1, overflow: "hidden" }}>
         {showIndicator && this.displayIndicator(false) ? (
           <Animated.View
             style={[
@@ -73,7 +73,7 @@ class ScrollIndicator extends Component {
             ]}
           >
             <LinearGradient
-              colors={['#212121', 'transparent']}
+              colors={linearGradientColors.reverse()}
               style={[styles.gradientBackground]}
             />
           </Animated.View>
@@ -127,7 +127,7 @@ class ScrollIndicator extends Component {
           >
             <LinearGradient
               colors={linearGradientColors}
-              style={[styles.gradientBackground, styleGradientBackground ]}
+              style={[styles.gradientBackground, styleGradientBackground]}
             >
               <View>
                 {renderPicto && renderPicto()}
@@ -145,25 +145,25 @@ export default ScrollIndicator;
 
 const styles = StyleSheet.create({
   swipeWrapperTop: {
-    backgroundColor: 'transparent',
-    position: 'absolute',
+    backgroundColor: "transparent",
+    position: "absolute",
     left: 0,
     right: 0,
     top: -160,
     zIndex: 999
   },
   swipeWrapperBottom: {
-    backgroundColor: 'transparent',
-    position: 'absolute',
+    backgroundColor: "transparent",
+    position: "absolute",
     left: 0,
     right: 0,
     bottom: 0,
     zIndex: 999
   },
   gradientBackground: {
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     height: 100,
-    backgroundColor: 'transparent'
+    backgroundColor: "transparent"
   }
 });
