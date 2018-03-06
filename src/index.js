@@ -73,7 +73,7 @@ class ScrollIndicator extends Component {
             ]}
           >
             <LinearGradient
-              colors={linearGradientColors.reverse()}
+              colors={[...linearGradientColors].reverse()}
               style={[styles.gradientBackground]}
             />
           </Animated.View>
